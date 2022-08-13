@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Play:wght@700&family=Viga&display=swap');
+
+
+html, body {margin: 0;       /*removes body scroll*/
+    height: 110%; 
+    overflow: hidden
+}
+
+img [src="./assets/Logo.png"]{
+    border: solid red;
+    width: 60px;
+}
+
+.grow-list li{
+    color: #7b8284;
+    display: inline;
+    position: relative;
+    top: -60px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    left: 300px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grow-list li:visited{
+    color: aqua;
+}
+
+/*contact button*/
+.button-group{
+    color: #fff;
+    position: relative;
+    top:-100px;
+    left: 1000px;
+   
+    /* width: 150px; */
+    /* background-color: #3944F7; */
+    
+    /* border-width: 30px;
+    border-radius: 0.2rem; */
+}
+
+/*both btn css*/
+.nav-button{
+     background-color: #1B98F5;
+     padding: 10px;
+     width: 130px;
+     border-color:  #1B98F5;
+     border-radius: 0.6rem;
+}
+
+div img[src="./assets/Header Illustration.png"]{
+    
+    position: relative;
+    top: -600px;
+    left: 510px;
+    width: 600px;
+}
+
+.heading-text{
+    font-family: cairo;
+    font-size: 400%;
+    position: relative;
+    left: 0;
+    top: -90px;
+    
+    /* text-align: left; */
+    /* border:solid blue; */
+    width: 500px; 
+   
+    
+}
+
+span{
+    color: #77bdf2;
+}
+
+.description{
+    font-size:15px;
+    position: relative;
+    left: 0;
+    top: -150px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7b8284;
+    width:500px;
+}
+
+/*our services  button*/
+.nav-button.btn{
+    position: relative;
+    top: -150px;
+    left: 100px;
+    
+}
